@@ -1,0 +1,19 @@
+{
+  "name": "lua-luau-web-obfuscator",
+  "version": "0.1.0",
+  "description": "Compiler (JS) + VM runtime (Lua) untuk virtualisasi/obfuscation skrip Lua 5.1 dan Luau.",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js",
+    "test:dump": "node compiler/test_compile.js"
+  },
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nurhail0123/Virtual-Machine.git"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
